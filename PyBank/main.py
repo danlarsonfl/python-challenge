@@ -72,3 +72,4 @@ with open(output_file, "w", newline="") as datafile:
     writer.writerow(['Average Change: ${:0,.2f}'.format(average).replace('$-','-$')])
     writer.writerow(['Greatest Increase in Profits: '+i_new +' ${:0,.2f}'.format(increase).replace('$-','-$')])
     writer.writerow(['Greatest Decrease in Profits: '+d_new +' ${:0,.2f}'.format(decrease[0]).replace('$-','-$')])
+    
